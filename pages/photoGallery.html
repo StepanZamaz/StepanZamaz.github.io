@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/globalStyle.css">
+    <link rel="stylesheet" href="../styles/photoGallery.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Climberries</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navHeading">
+            <img class="logo" src="../img/logo.png" alt="logo">
+            <h1>Climberries</h1>
+        </div>
+        <ul>
+            <li><a href="../index.html">Domů</a></li>
+            <li><a href="./mapPage.html">Mapa</a></li>
+            <li><a href="./locationPage.html">Oblasti</a></li>
+            <li><a href="./photoGallery.html">Fotogalerie</a></li>
+            <li><a href="./contactPage.html">Kontakty</a></li>
+        </ul>
+    </nav>
+    <main class="photoContainer">
+        <div class="photoDiv"><img id="img1" src="../img/rocks/1.jpg" alt="Ementálové"></div>
+        <div class="photoDiv"><img id="img2" src="../img/rocks/2.jpg" alt="Konec světa"></div>
+        <div class="photoDiv"><img id="img3" src="../img/rocks/3.jpg" alt="Nickámen"></div>
+        <div class="photoDiv"><img id="img4" src="../img/rocks/4.jpg" alt="Titanic"></div>
+        <div class="photoDiv"><img id="img5" src="../img/rocks/5.jpg" alt="Za komín"></div>
+        <div class="photoDiv"><img id="img6" src="../img/rocks/6.jpg" alt="Země nezemě"></div>
+        <div class="photoDiv"><img id="img7" src="../img/rocks/7.jpg" alt="U řeky"></div>
+        <div class="photoDiv"><img id="img8" src="../img/rocks/8.jpg" alt="Stropík"></div>
+        <div class="photoDiv"><img id="img9" src="../img/rocks/9.jpg" alt="Kentaurium"></div>
+        <div id="detailModal" class="modal">
+            <span class="closeModal">&times;</span>
+            <img class="modalContent" id="imgToDisplay" src="empty" alt="modalové okno">
+        </div>
+    </main>
+    <footer>
+        <div class="navigationAndLogo">
+            <div class="fotLogoDiv">
+                <img src="../img/logo.png" alt="logo">
+                <h3>Climberries</h3>
+            </div>
+            <div class="footerNav">
+                <ul class="footerNavList">
+                    <li><a href="../index.html">Domů</a></li>
+                    <li><a href="./mapPage.html">Mapa</a></li>
+                    <li><a href="./locationPage.html">Oblasti</a></li>
+                    <li><a href="./photoGallery.html">Fotogalerie</a></li>
+                    <li><a href="./contactPage.html">Kontakty</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="fotterRightContent">
+            <div class="fotContact">
+                <i class="fa-regular fa-envelope"></i>
+                <p>zamazst1@uhk.cz</p>
+            </div>
+            <div class="fotContact">
+                <i class="fa-solid fa-phone"></i>
+                <p>+420 154 264 782</p>
+            </div>
+        </div>
+        <div class="copyDiv">
+            <p>© 2022 Štěpán Zamazal - studentský projekt</p>
+            <p id="modifiedPar"></p>
+            <p>Kontaktní email: zamazst1@uhk.cz</p>
+        </div>
+    </footer>
+    <script src="../scripts/imageDetailScript.js"></script>
+    <script src="../scripts/lastModifiedScript.js"></script>
+</body>
+</html>

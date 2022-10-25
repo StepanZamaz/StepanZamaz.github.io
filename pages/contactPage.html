@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/globalStyle.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/contactPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script>
+        function buttonHandler()
+        {
+            alert('Formulář byl odeslán!');
+        }
+    </script>
+    <title>Climberries</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navHeading">
+            <img class="logo" src="../img/logo.png" alt="logo">
+            <h1>Climberries</h1>
+        </div>
+        <ul>
+            <li><a href="../index.html">Domů</a></li>
+            <li><a href="./mapPage.html">Mapa</a></li>
+            <li><a href="./locationPage.html">Oblasti</a></li>
+            <li><a href="./photoGallery.html">Fotogalerie</a></li>
+            <li><a href="./contactPage.html">Kontakty</a></li>
+        </ul>
+    </nav>
+    <main class="contactContainer">
+        <div class="contacts">
+            <h2>Climberries</h2>
+            <div class="contactsContent">
+                <div class="contactsInfo">
+                    <p>Telefon: +420 154 264 782</p>
+                    <p>Email: zamazst1@uhk.cz</p>
+                    <table>
+                        <tr>
+                            <th>Dny</th>
+                            <th>Hotline</th>
+                        </tr>
+                        <tr>
+                            <th>Po</th>
+                            <th>10:00-17:00</th>
+                        </tr>
+                        <tr>
+                            <th>Út</th>
+                            <th>X</th>
+                        </tr>
+                        <tr>
+                            <th>St</th>
+                            <th>8:00-15:00</th>
+                        </tr>
+                        <tr>
+                            <th>Čt</th>
+                            <th>10:00-17:00</th>
+                        </tr>
+                        <tr>
+                            <th>Pá</th>
+                            <th>X</th>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="ownerDiv">
+                    <p>Majitel stránky: Štěpán Zamazal</p>
+                    <div class="owner">
+                        <img src="../img/profileFoto.jpg" alt="profilová fotografie">
+                        <p>Web developer</p>
+                    </div>
+                </div>
+                <div class="contactIcons">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+        <div class="contactForm">
+            <div class="formContent">
+                <div>
+                    <h2>Kontaktujte nás</h2>
+                    <p class="formText">Pomocí tohoto formuláře nám můžete dát zpětnou vazbu či vznášet dotazy.</p>
+                </div>
+                <div class="formDiv">
+                    <form class="form">
+                        <label for="firstName">Jméno</label><br>
+                        <input type="text" id="firstName" name="firstName"><br>
+                        <label for="lastName">Příjmení</label><br>
+                        <input type="text" id="lastName" name="lastName"><br><br>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email"><br><br>
+                        <label for="msgText">Text zprávy</label><br>
+                        <textarea name="msgText" id="msgText" cols="30" rows="10"></textarea>
+                        <div class="buttonDiv">
+                            <input class="submitButton" onclick="buttonHandler()" type="submit" value="Odeslat">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="navigationAndLogo">
+            <div class="fotLogoDiv">
+                <img src="../img/logo.png" alt="logo">
+                <h3>Climberries</h3>
+            </div>
+            <div class="footerNav">
+                <ul class="footerNavList">
+                    <li><a href="../index.html">Domů</a></li>
+                    <li><a href="./mapPage.html">Mapa</a></li>
+                    <li><a href="./locationPage.html">Oblasti</a></li>
+                    <li><a href="./photoGallery.html">Fotogalerie</a></li>
+                    <li><a href="./contactPage.html">Kontakty</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="fotterRightContent">
+            <div class="fotContact">
+                <i class="fa-regular fa-envelope"></i>
+                <p>zamazst1@uhk.cz</p>
+            </div>
+            <div class="fotContact">
+                <i class="fa-solid fa-phone"></i>
+                <p>+420 154 264 782</p>
+            </div>
+        </div>
+        <div class="copyDiv">
+            <p>© 2022 Štěpán Zamazal - studentský projekt</p>
+            <p id="modifiedPar"></p>
+            <p>Kontaktní email: zamazst1@uhk.cz</p>
+        </div>
+    </footer>
+    <script src="../scripts/lastModifiedScript.js"></script>
+</body>
+</html>

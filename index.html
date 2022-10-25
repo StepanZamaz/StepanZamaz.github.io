@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/homePage.css">
+    <link rel="stylesheet" href="./styles/globalStyle.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Climberries</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navHeading">
+            <img class="logo" src="./img/logo.png" alt="logo">
+            <h1>Climberries</h1>
+        </div>
+        <ul>
+            <li><a href="./index.html">Domů</a></li>
+            <li><a href="./pages/mapPage.html">Mapa</a></li>
+            <li><a href="./pages/locationPage.html">Oblasti</a></li>
+            <li><a href="./pages/photoGallery.html">Fotogalerie</a></li>
+            <li><a href="./pages/contactPage.html">Kontakty</a></li>
+        </ul>
+    </nav>
+    <main class="homeContainer">
+        <div class="leftContent">
+            <div class="flipCardAbout">
+                <div class="innerFlipCard">
+                    <div class="frontContent">
+                        <div class="aboutQuestion">
+                            <h2>Máte často problém, že nemůžete najít informace o lezeckých oblastech?</h2>
+                        </div>
+                        <div class="aboutLogo">
+                            <img src="./img/logo.png" alt="logo">
+                        </div>
+                    </div>
+                    <div class="backContent">
+                        <img src="./img/rocks/4.jpg" alt="Titanic">
+                        <div class="aboutText">
+                            <p>Právě to by měla řešit naše aplikace Climberries. Tato webová aplikace je průvodce lezeckými oblastmi, díky které si najdete informace, které potřebujete. V této aplikaci si můžete prohlížet lezecké oblasti, které vás zajímají. Dále zde můžete najít mapu, které je užitečná ke zjištění lokace daných oblastí.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rightContent">
+            <div class="flipCardUsage">
+                <div class="innerFlipCard">
+                    <div class="frontContent">
+                        <i class="fa-solid fa-mountain"></i>
+                         <div class="usageQuestion">
+                            <h2>Jak aplikaci využívat?</h2>
+                         </div>
+                    </div>
+                    <div class="backContent">
+                        <img src="./img/rocks/6.jpg" alt="Země nezemě">
+                        <div class="usageText">
+                            <p>Na záložce oblasti lze zjistit informace o daných oblastech. Jednoduše si najdete oblast, která vás zajímá a po rozkliknutí oblasti se vám zobrazí potřebné informace a cesty, které v oblasti lze najít. Dále lze využívat mapu, kterou lze najít na záložce mapa, zde najdete lokaci oblastí.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flipCardDiscussion">
+                <div class="innerFlipCard">
+                    <div class="frontContent">
+                        <div class="discussionQuestion">
+                            <h2>Máte nějaké dotazy?</h2>
+                        </div>
+                        <i class="fa-solid fa-question"></i>
+                    </div>
+                    <div class="backContent">
+                        <div class="discussionText">
+                            <p>Neváhejte nám napsat! Na záložce kontakty lze vyplnit dotazující formulář, který se nám odešle. Svoje dotazy tak můžete vkládat sem a my vám obratně odpovíme na váš email.</p>
+                        </div>
+                        <img src="./img/rocks/1.jpg" alt="Ementálové">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="navigationAndLogo">
+            <div class="fotLogoDiv">
+                <img src="./img/logo.png" alt="logo">
+                <h3>Climberries</h3>
+            </div>
+            <div class="footerNav">
+                <ul class="footerNavList">
+                    <li><a href="./index.html">Domů</a></li>
+                    <li><a href="./pages/mapPage.html">Mapa</a></li>
+                    <li><a href="./pages/locationPage.html">Oblasti</a></li>
+                    <li><a href="./pages/photoGallery.html">Fotogalerie</a></li>
+                    <li><a href="./pages/contactPage.html">Kontakty</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="fotterRightContent">
+            <div class="fotContact">
+                <i class="fa-regular fa-envelope"></i>
+                <p>zamazst1@uhk.cz</p>
+            </div>
+            <div class="fotContact">
+                <i class="fa-solid fa-phone"></i>
+                <p>+420 154 264 782</p>
+            </div>
+        </div>
+        <div class="copyDiv">
+            <p>© 2022 Štěpán Zamazal - studentský projekt</p>
+            <p id="modifiedPar"></p>
+            <p>Kontaktní email: zamazst1@uhk.cz</p>
+        </div>
+    </footer>
+    <script src="./scripts/lastModifiedScript.js"></script>
+</body>
+</html>
