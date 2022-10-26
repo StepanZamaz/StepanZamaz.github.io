@@ -60,6 +60,18 @@ footer{
 .fotContact p{
     margin-left: 5px;
 }
+.sources{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+.sources p a{
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: #61ED84;
+}
 @media only screen and (max-width: 1050px) {
     footer{
         flex-direction: column;
@@ -77,5 +89,8 @@ footer{
     }
     .fotLogoDiv{
         margin-left: 20%;
+    }
+    .sources{
+        margin-left: 40%;
     }
 }
